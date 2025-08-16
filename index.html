@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Luis Santos" />
+    <meta name="description" content="Portafolio Personal de Luis Santos" />
+    <meta name="keywords" content="HTML, css, javascript, react" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <!-- titulo -->
+    <title>Portafolio | Luis Antonio Santos</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/ms-icon-luis.png"
+              width="50"
+              alt="imagen luis santos"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi"
+                >Sobre Mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Mi Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formacion">Formación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- seccion Hero -->
+    <section class="hero align-items-stretch">
+      <h3 class="slogan">Transformo ideas en código, y código en impacto.</h3>
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img
+          class="hero-imagen-desarrollador"
+          src="/images/fotoperfil.png"
+          alt="foto de perfil luis santos"
+        />
+        <h1>Luis Antonio Santos</h1>
+        <h2>Programador Web - Desarrollador de Aplicaciones Móviles</h2>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a
+            href="#" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a 
+            href="#" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a
+            href="mailto:lasaro069@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a
+            href="mailto:lasaro069@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- seccion sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Sobre Mí</h2>
+        <p class="seccion-texto">
+          Suboficial de la Reserva Activa de la Armada Nacional. Tecnólogo en
+          Entrenamiento y Gestión Militar, Técnico en Comunicaciones
+          Electromagnéticas, Técnico en Programación Web y Desarrollo de
+          Aplicaciones Móviles. <br />Cuento con 25 años de experiencia en
+          Entrenamiento y Direccionamiento y administración de personal, alto
+          nivel de liderazgo, resolución de conflictos, trabajo en equipo y
+          trabajo bajo presión. Capacidad demostrada para liderar y cumplir
+          objetivos.
+        </p>
+      </div>
+    </section>
+
+    <!-- seccion mi perfil -->
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container text-center">
+        <h2 class="seccion-titulo texto-negro">Mi Perfil</h2>
+        <div class="row">
+          <!-- perfil profesional -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Perfil Profesional</p>
+            <p class="perfil">
+              Desarrollador Front-End Junior con formación en programación web y
+              desarrollo de aplicaciones móviles, apasionado por crear
+              interfaces funcionales y atractivas. Manejo sólido de HTML, CSS,
+              JavaScript y ReactJS, con experiencia en proyectos que demuestran
+              aprendizaje rápido, adaptación a nuevas tecnologías, trabajo en
+              equipo y trabajo bajo presión y capacidad para resolver problemas.
+            </p>
+          </div>
+          <!-- habilidades tecnicas -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-fill-gear"></i>
+            <p class="experiencia-titulo">Habilidades Técnicas</p>
+            <ul>
+              <li>HTML5, CSS3, JavaScript (ES6+)</li>
+              <li>ReactJS, Bootstrap</li>
+              <li>Git, GitHub, VS Code, Chrome DevTools</li>
+              <li>Responsive Design, Mobile First, Component-Based Development</li>
+              <li>Consumo de APIs REST, JSON, Optimización de rendimiento</li>
+              <li>Nivel de Inglés: A2</li>
+            </ul>
+          </div>
+          <!-- habilidades blandas -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-plus-fill"></i>
+            <p class="experiencia-titulo">Habilidades Blandas</p>
+            <ul>
+              <li>Comunicación asertiva</li>
+              <li>Trabajo en Equipo</li>
+              <li>Adaptación a nuevas tecnologías</li>
+              <li>Resolución de problemas ytrabajo bajo presión</li>
+              <li>Organizacióm y gestión del tiempo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- formacion academica -->
+    <section
+      id="formacion"
+      class="articulos seccion-oscura justify-content-start">
+      <h2 class="seccion-titulo texto-blanco">Formación Académica</h2>
+      <div>
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              Técnico Laboral en Programación Web y Desarrollo de Aplicaciones
+              Móviles
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Instituto Técnico Iberoamericano - (2025)
+            </h6>
+            <p class="card-text">
+              Enfoque en Desarrollo Web, HTML, CSS, JS y React
+            </p>
+            <a href="#" class="card-link">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">Diplomado Desarrollo de Software</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Universidad Sergio Arboleda - (2023)
+            </h6>
+            <p class="card-text">Énfasis en Java</p>
+            <a href="#" class="card-link">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">Diplomado Fundamentos de Programación</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Universidad El Bosque - (2021)
+            </h6>
+            <p class="card-text">
+              Conceptos básicos de programación, variables, condicionales,
+              buchles, clases
+            </p>
+            <a href="#" class="card-link">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">Programación Básica</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Universidad El Bosque - (2021)
+            </h6>
+            <p class="card-text">
+              Programación Orientada a Objetos, Python básico, Java básico
+            </p>
+            <a href="#" class="card-link">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">Diplomado Desarrollo de Software</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Universidad El Bosque - (2021)
+            </h6>
+            <p class="card-text">
+              Proyecto Tienda Virtual en Java, diseño de UI
+            </p>
+            <a href="#" class="card-link">Ver Certificado</a>
+          </div>
+        </div>
+        <div class="card" style="width: 50rem">
+          <div class="card-body">
+            <h5 class="card-title">
+              Diplomado Desarrollo de Aplicaciones Móviles
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Universidad El Bosque - (2021)
+            </h6>
+            <p class="card-text">
+              Enfoque en Desarrollo de App en Android Studio con Kot lin
+            </p>
+            <a href="#" class="card-link">Ver Certificado</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- proyectos  -->
+    <section
+      id="proyectos-recientes"
+      class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos Recientes</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos de los proyectos que he creado recientemente.
+      </h3>
+      <!-- galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto1.png" alt="" />
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto2.png" alt="" />
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto3.png" alt="" />
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto4.png" alt="" />
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto5.png" alt="" />
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto6.png" alt="" />
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a
+                    href="https://github.com/lasaro069"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- boton mas proyectos -->
+      <a
+        href="https://github.com/lasaro069"
+        target="_blank"
+        rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- footer -->
+    <footer
+      id="contacto"
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:lasaro069@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a
+          href="mailto:lasaro069@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-autor">&copy; Luis Antonio Santos - 2025</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
